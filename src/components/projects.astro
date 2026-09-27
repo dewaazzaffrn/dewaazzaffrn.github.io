@@ -10,27 +10,27 @@ interface Project {
 const projects: Project[] = [
   {
     title: "Project One",
-    image: "/projects/image.png",
-    preview: "https://example.com",
+    image: "/projects/1.png",
+    preview: "https://www.getwebify.biz.id/ ",
     status: "Deployed",
   },
   {
     title: "Project Two",
-    image: "https://placehold.co/600x400/1a1a1a/ffffff?text=Project+Two",
-    preview: "https://example.com",
-    status: "On Development",
+    image: "/projects/2.png",
+    preview: "https://needajob-id.netlify.app/",
+    status: "Deployed",
   },
   {
     title: "Project Three",
-    image: "https://placehold.co/600x400/1a1a1a/ffffff?text=Project+Three",
-    preview: "https://example.com",
-    status: "Contributor",
+    image: "/projects/3.png",
+    preview: "https://sigubla.getwebify.biz.id ",
+    status: "Deployed",
   },
   {
     title: "Project Four",
-    image: "https://placehold.co/600x400/1a1a1a/ffffff?text=Project+Four",
-    preview: "https://example.com",
-    status: "Deployed",
+    image: "/projects/4.png",
+    preview: "https://kaensabucket.getwebify.biz.id/",
+    status: "On Development",
   },
 ];
 ---
@@ -57,7 +57,7 @@ const projects: Project[] = [
                 <img
                   src={project.image}
                   alt={project.title}
-                  class="w-full h-48 md:h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                  class="w-full h-40 md:h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div class="flex items-center px-3">
@@ -92,7 +92,7 @@ const projects: Project[] = [
     </div>
     <a
       target="_blank"
-      href="https://github.com"
+      href="https://github.com/dewaazzaffrn"
       aria-label="GitHub"
       class="w-full flex items-center justify-center gap-2 mt-9 text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-[var(--white-icon-tr)] p-3 rounded-full bg-[#1414149c] hover:bg-[var(--white-icon-tr)] hover:scale-105"
     >
