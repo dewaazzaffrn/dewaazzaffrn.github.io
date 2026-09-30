@@ -42,6 +42,7 @@ const currentYear = new Date().getFullYear();
               <a
                 href={link.href}
                 target="_blank"
+                rel="noopener noreferrer"
                 class="flex flex-col items-center group"
                 aria-label={link.label}
               >
@@ -60,7 +61,7 @@ const currentYear = new Date().getFullYear();
       <p class="text-center text-sm text-[var(--white-icon)] space-y-2">
         <!-- If you are using this template, by MIT License you can't remove the copyright notice -->
         <span class="block sm:inline"
-          >Copyright © {currentYear} Dewskie. All rights reserved.</span
+          >Copyright © {currentYear} <a href="https://www.instagram.com/dewaazzaffrn" target="_blank" rel="noopener noreferrer" class="hover:text-[var(--white)] transition">Dewskie</a>. All rights reserved.</span
         >
       </p>
     </div>
